@@ -7,11 +7,11 @@ form.addEventListener("submit", e => {
     return alert("Add Local governemnet");
   }
 
-  let plateNumner = `${generateFirstTwoLetters()}-${generateThreeRandomNumbers(
+  let plateNumber = `${generateFirstTwoLetters()}-${generateThreeRandomNumbers(
     0,
     999
   )}-${input.value.substring(0, 3)}`;
-  alert(plateNumner);
+  alert(plateNumber);
   input.value = "";
 });
 
