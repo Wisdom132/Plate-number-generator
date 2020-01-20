@@ -1,5 +1,5 @@
 let form = document.getElementById("form");
-let input = document.getElementById("lgeInput");
+let input = document.getElementById("lgaInput");
 
 form.addEventListener("submit", e => {
   e.preventDefault();
